@@ -53,7 +53,7 @@ export default function Users(){
             {users.map((user,index)=>
                 
                 
-                <div style={{border:"2px dashed rgb(25, 65, 65)",margin:"10px",padding:"10px",width:"250px",height:"100px"}} > 
+                <div style={{border:"2px solid rgb(255, 2, 2)",margin:"10px",padding:"10px",width:"250px",height:"100px"}} > 
                     <p key={index} > {user.name} </p>
                     <p key={index} > {user.email} </p>
 
